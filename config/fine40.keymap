@@ -18,7 +18,7 @@
 				// |  ESC  |  Q   |  W   |  E   |  R   |  T   |   Y   |  U    |  I   |  O   |   P   | BSPC  |
 				// |  TAB  |  A   |  S   |  D   |  F   |  G   |   H   |  J    |  K   |  L   |   ;   |  '    |
 				// | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   /   |  RET  |
-				// | LCTL  | LGUI | LALT |  \   | SPC | SPC  |  RAIS | LARW | DARW | UARW  |  RARW |  P/P  |
+				// | LCTL  | LGUI | LALT |  \   | SPC  | SPC  |  RAIS | LARW | DARW | UARW  |  RARW |  P/P  |
 
 				// -----------------------------------------------------------------------------------------
 				// |  ESC  |  Q   |  W   |  E   |  R   |  T   |   B   |  V    |  C   |  X   |   Z   |  LSFT |
@@ -34,7 +34,7 @@
 				&kp LCTL  &kp LGUI &kp LALT &kp BSLH &kp SPACE &kp SPACE &lt 1 SPACE &kp LEFT &kp UP    &kp DOWN &kp RIGHT &kp C_PP
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
 		right {
